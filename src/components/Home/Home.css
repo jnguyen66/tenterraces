@@ -1,0 +1,32 @@
+.Banner{
+    background-image: url('https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id613518332');
+    background-position: center;
+
+    height: 600px;
+    width: 100%;
+}
+
+
+.BannerText {
+    width: 50%;
+    margin: 0 auto;
+
+    height: 300px;
+    text-align: center;
+}
+
+.BannerText h3{
+ 
+    text-align: center
+}
+.BannerText p{
+ 
+    
+}
+
+.BannerText Button{
+
+    color: black;
+  
+    
+}
