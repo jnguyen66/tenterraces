@@ -1,15 +1,11 @@
 import React from 'react';
-import Button from '../UI/Button'
 import classes from './Home.css'
 
 const Home = props=>{
     return(
-        <div>
-            <div className={classes.Banner}>
-                <Button btnType="Success">Hello</Button>
-            </div>
+        <div className={classes.Banner}>
             <div className={classes.BannerText}>
-                <h3> Redesigned to meet the 21st Century</h3>
+                <h3> <u>Redesigned to meet the 21st Century</u></h3>
                 <p>
                 With over 120,000 square feet of commercial and conventional-style offices for lease within a sophisticated glass exterior, 
                 the building plays host to a diverse and exclusive array of tenants. The 420 3rd St. commercial office building is the very 
@@ -18,7 +14,7 @@ const Home = props=>{
                 This 10 floor commercial real estate property also provides a healthy spectrum of lifestyle amenities. Some of the amenities include a 
                 coffee shop, balcony suites, abundant parking and freeway / metro access with 24-hour building security.
                 </p>
-                <Button btnType="Contact">Contact Us</Button>
+              
             </div>
         </div>
     )

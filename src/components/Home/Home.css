@@ -1,32 +1,32 @@
 .Banner{
-    background-image: url('https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id613518332');
-    background-position: center;
+    background-image: url('../../assets/images/banner.jpg');
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
 
-    height: 600px;
+    height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 
 .BannerText {
     width: 50%;
-    margin: 0 auto;
+    margin: 60px auto;
 
     height: 300px;
     text-align: center;
 }
 
 .BannerText h3{
- 
-    text-align: center
+    font: normal normal 38px Sylfaen;
+    text-align: center;
+    line-height: 40px;
+
+    text-transform: uppercase;
 }
 .BannerText p{
- 
-    
-}
-
-.BannerText Button{
-
-    color: black;
-  
-    
+    font: normal normal 16px 'Open Sans',sans-serif;
+    text-align: left;
+    line-height: 27px;
 }

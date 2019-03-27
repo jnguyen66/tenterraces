@@ -1,0 +1,30 @@
+.Background{
+    background-image: url('../../assets/images/building-info.jpg');
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+
+
+
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+    
+    overflow: auto;
+}
+.BuildingInfo{
+    position: relative;
+    margin: 150px auto;
+    
+    background-color: red;
+    width: 40%;
+    padding: 0 30px 30px 30px;
+
+
+}
+
+.BuildingInfo h1{
+    text-align: center;
+}
