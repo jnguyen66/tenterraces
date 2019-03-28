@@ -7,9 +7,10 @@ const leasingTable = props => {
    <title>Page Title</title>
    <table className={classes.LeasingTable} >
    <tbody>
-        <tr bgcolor="#5c6d6f"><th width="60">Suite</th>
-            <th width="75">Size SF</th>
-            <th width="75">Floorplans</th>
+        <tr>
+            <th>Suite</th>
+            <th>Size SF</th>
+            <th>Floorplans</th>
             <th>Comments</th>
         </tr>
 
@@ -19,7 +20,7 @@ const leasingTable = props => {
             <td><a target="_blank" rel="noopener noreferrer" href="http://tenterraces.000webhostapp.com/floorplans/130.pdf"><p></p>
             <img alt='floorplan' src="http://tenterraces.000webhostapp.com/floorplans/floorplanicon.png"/></a>
             </td>
-            <td>Retail space, future food hall</td>
+            <td>Retail space</td>
         </tr>
 
         <tr>

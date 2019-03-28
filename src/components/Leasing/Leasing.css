@@ -1,7 +1,41 @@
 .Leasing{
+    background-image: url('../../assets/images/slideshow9.jpg');
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+.LeasingDiv{
+    margin: 140px auto 0 auto;
+    width: 275px;
+    background-color: rgba(240, 248, 255, 0.76);
+
+
+}
+.Leasing h2{
     margin-top: 100px;
 }
 
 .Leasing h2{
     text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .LeasingDiv{
+
+        width: 500px;
+    
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .LeasingDiv{
+
+        width: 900px;
+    
+    }
 }

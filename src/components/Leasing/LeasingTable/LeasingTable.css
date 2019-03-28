@@ -1,4 +1,35 @@
 .LeasingTable{
     position: relative;
-    margin: 50px auto;
+    margin: 20px auto 0 auto;
+    background-color: aliceblue;
+    width: 250px;
+}
+
+tr:nth-child(odd) {
+    background-color: #cccccc;
+}
+td{
+    font-size: 11px;
+}
+
+@media only screen and (min-width: 500px) {
+    .LeasingTable{
+        width: 500px;
+    }
+
+    td{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (min-width: 900px) {
+    .LeasingTable{
+        width: 900px;
+    }
+
+    td{
+        font-size: 16px;
+    }
+    
 }

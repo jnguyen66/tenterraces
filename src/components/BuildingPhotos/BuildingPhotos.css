@@ -7,14 +7,77 @@
 
 
 
-.BuildingPhotos p{
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top:60vh;
-    left: 0;
-    right: 0;
-    font-size: 100px;
-    z-index: 2;
-    color: black;
+
+
+
+.BannerText {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top:30vh;
+  left: 0;
+  right: 0;
+  font-size: 100px;
+  z-index: 2;
+  color: black;
+  width: 70%;
+
+
+  height: 300px;
+  text-align: center;
+
+  background-color: rgba(240, 255, 255, 0.815);
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.BannerText h3{
+  font: normal normal 30px Sylfaen;
+  text-align: center;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.BannerText p{
+  font: normal normal 16px 'Open Sans',sans-serif;
+  text-align: center;
+  line-height: 22px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+  
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .BannerText {
+    top:20vh;
+    height: 600px;
+  }
+  .BannerText h3{
+    font: normal normal 30px Sylfaen;
+    line-height: 30px;
+  }
+
+  .BannerText p{
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 700px) {
+
+  .BannerText {
+    top:10vh;
+    height: 600px;
+  }
+  .BannerText h3{
+    font: normal normal 25px Sylfaen;
+    line-height: 25px;
+  }
+
+  .BannerText p{
+    font-size: 15px;
+    line-height: 15px;
+  }
 }

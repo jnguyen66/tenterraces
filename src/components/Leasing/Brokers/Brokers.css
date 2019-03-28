@@ -1,0 +1,27 @@
+.Brokers{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.Brokers p,
+.Brokers h4{
+    margin: 0;
+}
+
+.Brokers div{
+    margin: 20px 0;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .Brokers{
+
+        flex-direction: row;
+       
+        
+    }
+    
+}
