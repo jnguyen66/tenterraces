@@ -1,0 +1,21 @@
+.Contact{
+    height: 90vh;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: solid black 1px;
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.Contact div{
+    margin-right: 0px;
+    padding-left: 20px;
+
+}
+
+.Contact span{
+    display: block;
+}
