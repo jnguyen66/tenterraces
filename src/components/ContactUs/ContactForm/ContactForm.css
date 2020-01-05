@@ -8,14 +8,16 @@
     text-align: center;
     font-weight: 500;
 }
+
+
  input[type=text],input[type=email], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     resize: vertical;
 }
 
@@ -35,3 +37,23 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    input[type=text],input[type=email], select, textarea {
+
+        padding: 3px;
+
+        margin-top: 3px;
+        margin-bottom: 5px;
+
+    }
+
+    label{
+    font-size: 2vw;
+    }
+    h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+  }

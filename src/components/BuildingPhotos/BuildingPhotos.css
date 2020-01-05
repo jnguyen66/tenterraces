@@ -3,12 +3,14 @@
  text-align: center;
  height: 100%;
  overflow: hidden;
+ padding-bottom: 0;
+ margin-bottom: 0;
 }
 
 
 
 
-
+/*
 
 .BannerText {
   position: absolute;
@@ -23,7 +25,7 @@
   width: 70%;
 
 
-  height: 300px;
+  height: 50vh;
   text-align: center;
 
   background-color: rgba(240, 255, 255, 0.815);
@@ -52,8 +54,8 @@
 @media only screen and (max-width: 1000px) {
 
   .BannerText {
-    top:20vh;
-    height: 600px;
+    top:10vh;
+    height: 70vh;
   }
   .BannerText h3{
     font: normal normal 30px Sylfaen;
@@ -61,15 +63,15 @@
   }
 
   .BannerText p{
-    font-size: 20px;
+    font-size: 2vw;
     line-height: 25px;
   }
 }
 @media only screen and (max-width: 700px) {
 
   .BannerText {
-    top:10vh;
-    height: 600px;
+    top:20vh;
+    height: 60vh;
   }
   .BannerText h3{
     font: normal normal 25px Sylfaen;
@@ -77,7 +79,26 @@
   }
 
   .BannerText p{
-    font-size: 15px;
+    font-size: 2vw;
     line-height: 15px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+
+  .BannerText {
+    top:20vh;
+    height: 70vh;
+  }
+  .BannerText h3{
+    font: normal normal 25px Sylfaen;
+    line-height: 25px;
+  }
+
+  .BannerText p{
+    font-size: 3vw;
+    line-height: 15px;
+  }
+}
+
+*/

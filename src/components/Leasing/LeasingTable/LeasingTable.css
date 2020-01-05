@@ -12,9 +12,13 @@ td{
     font-size: 11px;
 }
 
+th{
+    font-size: 2vw
+}
+
 @media only screen and (min-width: 500px) {
     .LeasingTable{
-        width: 500px;
+        width: 70vw;
     }
 
     td{
@@ -25,7 +29,7 @@ td{
 
 @media only screen and (min-width: 900px) {
     .LeasingTable{
-        width: 900px;
+        width: 70vw;
     }
 
     td{

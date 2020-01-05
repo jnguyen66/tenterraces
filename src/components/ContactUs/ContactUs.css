@@ -1,18 +1,16 @@
 .Contact{
-    height: 90vh;
+    height: 60vh;
     background-color: white;
     width: 80%;
     margin: 0 auto;
     position: relative;
     display: flex;
-    padding-top: 100px;
-
+    padding-top: 80px;
 }
 
 .Contact div{
     margin-right: 0px;
     padding-left: 20px;
-
 }
 
 .Contact span{
@@ -20,5 +18,27 @@
 }
 
 .Contact br{
-    margin-bottom:70px;
+    margin-bottom:10px;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .Contact{
+       flex-direction: column;
+       padding-top: 30px;
+       height: 500px;
+    }
+    .Contact div{
+
+        padding-left: 0px;
+    
+    }
+
+    .Contact br{
+        margin-bottom:10px;
+    }
+    
+    .Contact span{
+       font-size: 2vw;
+    }
+  }

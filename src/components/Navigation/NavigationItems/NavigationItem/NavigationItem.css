@@ -12,11 +12,9 @@
     box-sizing: border-box;
     display: block;
     margin: 0px 15px;
+    font-size: 2vw;
   }
-  
-  
-  
-  
+
   .NavigationItem a:hover,
   .NavigationItem a:active,
   .NavigationItem a.active {
