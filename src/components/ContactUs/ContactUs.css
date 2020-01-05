@@ -3,7 +3,6 @@
     background-color: white;
     width: 80%;
     margin: 0 auto;
-    border: solid black 1px;
     position: relative;
     display: flex;
     padding-top: 100px;
@@ -18,4 +17,8 @@
 
 .Contact span{
     display: block;
+}
+
+.Contact br{
+    margin-bottom:70px;
 }

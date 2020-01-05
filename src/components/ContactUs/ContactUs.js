@@ -3,14 +3,13 @@ import classes from './ContactUs.css';
 import  MapContainer  from '../MapContainer/MapContainer'
 import ContactForm from './ContactForm/ContactForm'
 
-
 const contactUs = () =>{
 
 
     return(
        <div className={classes.Contact}>
         <div>
-        <span>Ai Management</span>
+        <h3>Ai Management</h3>
         <span>Justin Nguyen (Justin@AiManagementCo.com)</span>
         <span>Property Manager</span>
         <span>420 E. 3rd St. Ste 600</span>
@@ -23,10 +22,13 @@ const contactUs = () =>{
         <span>601 S. Figueroa St. Suite 3825</span>
         <span>Los Angeles, CA 90017</span>
         <span>213-632-7700</span>
-     
+        <br></br>
+        <MapContainer/>
         </div>
-        
+        <div>
         <ContactForm/>
+        
+        </div>
         </div>)
     
 }

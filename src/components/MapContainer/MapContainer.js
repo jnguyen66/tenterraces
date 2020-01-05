@@ -3,9 +3,9 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 
 
 const mapStyles = {
-  width: '50%',
+  width: '90%',
   height: '50%',
-  position: "relative"
+
 
 };
 
