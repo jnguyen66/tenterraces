@@ -7,17 +7,17 @@ const contactUs = () =>{
 
 
     return(
-        <div>
+    <div className={classes.Background}>
        <div className={classes.Contact}>
         <div>
-        <h3>Ai Management</h3>
+        <h5>Ai Management</h5>
         <span>Justin Nguyen (Justin@AiManagementCo.com)</span>
         <span>Property Manager</span>
         <span>420 E. 3rd St. Ste 600</span>
         <span>Los Angeles, CA 90013</span>
         <span>213-379-4418</span>
        <p></p>
-        <span>Nai Capital and Kidder Matthews</span>
+        <h5>Nai Capital and Kidder Matthews</h5>
         <span>Chris Runyen (Crunyen@naicapital.com)</span>
         <span>George Crawford (Gcrawford@kiddermathews.com)</span>
         <span>601 S. Figueroa St. Suite 3825</span>

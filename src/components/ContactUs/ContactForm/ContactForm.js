@@ -24,7 +24,7 @@ export default function ContactForm() {
   return (
     <div >
     <h3>Contact Us</h3>
-    <form className="contact-form" onSubmit={sendEmail}>
+    <form className={classes.ContactForm}   onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Contact Number</label>

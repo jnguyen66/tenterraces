@@ -1,13 +1,28 @@
-.Contact{
-    height: 60vh;
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
+.Background{
+    background-image: url('../../assets/images/contactsbg.jpg');
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    display: flex;
-    padding-top: 80px;
+    overflow: auto;
 }
 
+.Contact{
+    height: 380px;
+    background-color:rgba(158, 206, 240, 0.8);
+    width: 80%;
+    margin: 100px auto 40px auto;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.Contact h5{
+    margin-top: 0;
+}
 .Contact div{
     margin-right: 0px;
     padding-left: 20px;
@@ -21,17 +36,18 @@
     margin-bottom:10px;
 }
 
+
 @media only screen and (max-width: 500px) {
 
     .Contact{
        flex-direction: column;
        padding-top: 30px;
-       height: 500px;
+       height: 120vw;
+       
+
     }
     .Contact div{
-
         padding-left: 0px;
-    
     }
 
     .Contact br{
@@ -39,6 +55,36 @@
     }
     
     .Contact span{
-       font-size: 2vw;
+       font-size: 3vw;
     }
   }
+
+@media only screen and (max-width: 440px) {
+
+    .Contact{
+       flex-direction: column;
+       padding-top: 30px;
+       height: 145vw;
+
+    }
+    .Contact div{
+        padding-left: 0px;
+    }
+
+    .Contact br{
+        margin-bottom:10px;
+    }
+    
+    .Contact span{
+       font-size: 3vw;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+
+    .Contact{
+     
+       height: 160vw;
+    }
+
+}

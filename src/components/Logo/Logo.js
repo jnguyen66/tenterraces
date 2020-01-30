@@ -4,7 +4,8 @@ import classes from './Logo.css';
 
 const logo = (props) =>(
   <div className={classes.Logo}>
-    <img src={tenterracesLogo} alt='TenTerraces'/>
+    <a rel="noopener noreferrer" href="/">  
+    <img src={tenterracesLogo} alt='TenTerraces'/></a>
   </div>
 )
 

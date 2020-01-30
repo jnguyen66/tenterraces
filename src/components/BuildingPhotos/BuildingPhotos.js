@@ -11,6 +11,7 @@ const buildingPhotos = props =>{
        <div className={classes.BuildingPhotos}>
      
            <Slideshow
+          
             showIndex
             showArrows={false}
             autoplay
@@ -18,9 +19,9 @@ const buildingPhotos = props =>{
             useDotIndex
             slideInterval={5000}
             defaultIndex={1}
-            slides={['http://tenterraces.com/photos/slideshow1.jpg', 'http://tenterraces.com/photos/slideshow2.jpg', 'http://tenterraces.com/photos/slideshow3.jpg', 'http://tenterraces.com/photos/slideshow4.jpg'
-            , 'http://tenterraces.com/photos/slideshow5.jpg', 'http://tenterraces.com/photos/slideshow6.jpg', 'http://tenterraces.com/photos/slideshow7.jpg', 'http://tenterraces.com/photos/slideshow8.jpg'
-            , 'http://tenterraces.com/photos/slideshow9.jpg']}
+            slides={['http://tenterraces.com/static/media/slideshow1.jpg', 'http://tenterraces.com/static/media/slideshow2.jpg', 'http://tenterraces.com/static/media/slideshow3.jpg',
+            'http://tenterraces.com/static/media/slideshow4.jpg', 'http://tenterraces.com/static/media/slideshow5.jpg', 'http://tenterraces.com/static/media/slideshow6.jpg',
+            'http://tenterraces.com/static/media/slideshow7.jpg', 'http://tenterraces.com/static/media/slideshow8.jpg', 'http://tenterraces.com/static/media/slideshow9.jpg']}
             effect={'fade'}
             height={'100%'}
             width={'100%'}

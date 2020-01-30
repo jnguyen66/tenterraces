@@ -1,5 +1,6 @@
 {
   "name": "tenterraces",
+  "homepage": "http://tenterraces.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,7 +48,7 @@
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-slidez": "0.0.31",
+    "react-slidez": "https://github.com/jnguyen66/react-slidez.git",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "slick-carousel": "^1.8.1",

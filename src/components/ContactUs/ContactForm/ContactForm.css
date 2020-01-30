@@ -1,13 +1,9 @@
 .ContactForm{
     max-width: 420px;
     margin: 0 0;
+   
 }
 
-
- p {
-    text-align: center;
-    font-weight: 500;
-}
 
 
  input[type=text],input[type=email], select, textarea {
@@ -41,15 +37,13 @@ input[type=submit]:hover {
 @media only screen and (max-width: 600px) {
     input[type=text],input[type=email], select, textarea {
 
-        padding: 3px;
-
-        margin-top: 3px;
-        margin-bottom: 5px;
-
+        padding: 1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
     }
 
     label{
-    font-size: 2vw;
+    font-size: 3vw;
     }
     h3{
         font-size: 20px;
@@ -57,3 +51,36 @@ input[type=submit]:hover {
     }
     
   }
+
+
+@media only screen and (max-width: 450px) {
+    input[type=text],input[type=email], select, textarea {
+
+        padding: 0.75vw;
+        margin-top: 0.75vw;
+        margin-bottom: 0.75vw;
+    }
+
+    label{
+    font-size: 2.5vw;
+    }
+    h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 320px) {
+    input[type=text],input[type=email], select, textarea {
+
+        padding: 0.5vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+    }
+
+
+    
+    
+  }
+  
