@@ -40,22 +40,31 @@
 
 @media only screen and (min-width: 700px) {
     .BuildingInfo{
-        margin: 80px auto 0px auto;
-        width: 600px;
+        margin: 100px auto 0px auto;
+        width: 70vw;
     }
-    
     .BuildingInfo h1{
         font-size: 2vw;
     }
-    
     .BuildingInfo p{
         font-size: 1.24vw;
     }
-    
-    
     .BuildingInfo p strong{
         font-size: 1.75vw;
     }
-    
-
+  }
+@media only screen and (min-width: 1000px) {
+    .BuildingInfo{
+        margin: 15vh auto 0px auto;
+        width: 55vw;
+    }
+    .BuildingInfo h1{
+        font-size: 1.7vw;
+    }
+    .BuildingInfo p{
+        font-size: 1vw;
+    }
+    .BuildingInfo p strong{
+        font-size: 1.25vw;
+    }
   }

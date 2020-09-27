@@ -3,7 +3,7 @@ import classes from './BuildingInfo.css';
 
 const buildingInfo = props =>{
     return(
-       
+
 <div className={classes.Background}>
 
 <div className={classes.BuildingInfo}>
@@ -12,7 +12,7 @@ const buildingInfo = props =>{
 
 <p><span ><u><strong>Space Available</strong></u></span></p>
 <ul><li>
-	<p >Office Space: 2.55-3.25 / SF Full Service Gross</p>
+	<p >Office Space: $2.95-$3.25 / SF Full Service Gross</p>
 	</li>
 	<li>
 	<p >Brand new urban and traditional suites available</p>

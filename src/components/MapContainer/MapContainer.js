@@ -4,12 +4,12 @@ import classes from './MapContainer.css';
 
 const mapStyles = {
   width: '80%',
-  height: '90%',
+  height: '60%',
   marginLeft: "auto",
   marginRight: "auto",
   marginBottom: "0",
   paddingBottom: "0"
-  
+
 
 };
 
@@ -24,7 +24,7 @@ export const MapContainer =props=> {
         setActiveMarker(marker);
         setInfoWindow(true);
     }
- 
+
    const  onClose = props => {
         if (showingInfoWindow) {
             setInfoWindow(false);

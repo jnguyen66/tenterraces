@@ -13,19 +13,18 @@
     z-index: 90;
     font-family: Open Sans;
   }
-  
+
   .Toolbar nav{
     height: 100%;
-  
+
   }
-  
+
   .Logo{
     height: 80%;
   }
-  
-  @media(max-width:499px){
+
+  @media(max-width:599px){
     .DesktopOnly{
       display:none;
     }
   }
-  

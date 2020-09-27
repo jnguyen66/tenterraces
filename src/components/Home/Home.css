@@ -15,7 +15,7 @@
     padding: 10px;
     border-radius: 5%;
   }
-  
+
   .BannerText h3{
     font: normal normal 30px Sylfaen;
     text-align: center;
@@ -31,29 +31,46 @@
     padding-bottom: 10px;
   }
 
+  @media only screen and (min-width: 1000px) {
+
+      .BannerText {
+        top:16vh;
+        height: 25vw;
+        width: 50%;
+      }
+      .BannerText h3{
+        font: normal normal 1.7vw Sylfaen;
+        line-height: 25px;
+      }
+
+      .BannerText p{
+        font-size: 1vw;
+        line-height: 2vw;
+      }
+  }
 
   @media only screen and (max-width: 1000px) {
-  
+
     .BannerText {
       top:20vh;
-      height: 40vw;
+      height: 50vw;
     }
     .BannerText h3{
       font: normal normal 30px Sylfaen;
       line-height: 30px;
       font-size: 3vw;
     }
-  
+
     .BannerText p{
       font-size: 2vw;
-      line-height: 2vw;
+      line-height: 3vw;
     }
   }
   @media only screen and (max-width: 700px) {
-  
+
     .BannerText {
       top:20vh;
-      height: 60vw;
+      height: 65vw;
       width:85%;
     }
     .BannerText h3{
@@ -61,33 +78,33 @@
       line-height: 25px;
       font-size: 3vw;
     }
-  
+
     .BannerText p{
       font-size: 2.5vw;
-      line-height: 3.5vw;
+      line-height: 4vw;
     }
   }
-  
+
   @media only screen and (max-width: 500px) {
-  
+
     .BannerText {
       top:20vh;
-      height: 70vw;
+      height: 80vw;
     }
     .BannerText h3{
       font: normal normal 25px Sylfaen;
       line-height: 25px;
       font-size: 4vw;
     }
-  
+
     .BannerText p{
       font-size: 3vw;
-      line-height: 3.5vw;
+      line-height: 4vw;
     }
   }
 
   @media only screen and (max-width: 320px) {
-  
+
     .BannerText {
       top:40vw;
       height: 140vw;
@@ -98,7 +115,7 @@
       line-height: 25px;
       font-size: 4vw;
     }
-  
+
     .BannerText p{
       font-size: 4vw;
       line-height: 5vw;
